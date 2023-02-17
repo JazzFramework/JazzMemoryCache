@@ -1,6 +1,6 @@
 import Foundation;
 
-import JazzCore;
+import JazzCache;
 
 public final class MemoryCache<TKey: Hashable, TValue>: Cache<TKey, TValue> {
     private let options: MemoryCacheOptions;

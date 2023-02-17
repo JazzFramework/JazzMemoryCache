@@ -23,10 +23,7 @@ let package = Package(
         .target(
             name: "JazzMemoryCache",
             dependencies: [
-                .product(name: "JazzConfiguration", package: "Jazz"),
-                .product(name: "JazzCore", package: "Jazz"),
-                .product(name: "JazzDataAccess", package: "Jazz"),
-                .product(name: "JazzDependencyInjection", package: "Jazz"),
+                .product(name: "JazzCache", package: "Jazz")
             ]),
         .testTarget(
             name: "JazzMemoryCacheTests",
